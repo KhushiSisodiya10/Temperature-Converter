@@ -1,0 +1,66 @@
+body{
+  margin-top: 60px;
+  text-align:center;
+  background-color: #95bb72;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #37306B;
+}
+
+input[type=number] {
+  cursor: pointer;
+}
+
+#input-celsius{
+  background-color: #FFFFD0;
+  font-size: 2.5rem;  
+  margin: 0.5rem;
+  width: 70%;
+}
+
+#input-fahrenheit{
+  background-color: #FFFFD0;
+  font-size: 2.5rem; 
+  margin: 0.5rem;
+  width: 70%;
+}
+
+#input-kelvin{
+  background-color: #FFFFD0;
+  font-size: 2.5rem; 
+  margin: 0.5rem;
+  width: 70%;
+}
+
+.form-padding {
+  padding: 1rem 1rem;
+}
+
+footer{
+  padding-top: 1.5rem;
+  font-size: 0.7rem;
+  line-height: 0.2rem;
+  text-align:center;
+}
+
+.icons{
+  max-width: 25px;
+  height: auto;
+}
+
+#kelvin,#celsius,#fahrenheit{
+  display: flex;
+  justify-content: right;
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  color:#643843;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
